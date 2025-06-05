@@ -1,0 +1,8 @@
+Run fan:
+sudo sh -c 'echo 200 > /sys/devices/pwm-fan/target_pwm'
+
+Run Camera:
+
+Run Obect detection:
+
+
