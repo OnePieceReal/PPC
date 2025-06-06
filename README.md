@@ -1,3 +1,4 @@
 # Autonomous Ping Pong Collector 
-![Demo animation](demo/demo_1_gif.gif)
+<video src="demo/demo_1.mp4" controls autoplay loop muted width="500"></video>
+
 
