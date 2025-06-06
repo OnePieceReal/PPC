@@ -1,2 +1,3 @@
 # Autonomous Ping Pong Collector 
-[Demo video](demo/demo_2.mp4)
+![Demo animation](demo/demo_1_gif.gif)
+
