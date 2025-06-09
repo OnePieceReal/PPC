@@ -12,11 +12,13 @@
 ![Demo GIF](demo/demo_1_gif.gif)
 
 <p align="center">
-  <img src="demo/demo_2.gif" width="600"/>
+  <img src="demo/demo_1_gif.gif" width="600"/>
 </p>
 
 <p align="center">
-  ▶️ <a href="demo/demo_2.mp4"><strong>Watch Full Demo Video</strong></a>
+  ▶️ <a href="demo/demo_1.mp4"><strong>Demo 1</strong></a>
+  ▶️ <a href="demo/demo_2.mp4"><strong>Demo 2</strong></a>
+  ▶️ <a href="demo/demo_3.mp4"><strong>Demo 3</strong></a>
 </p>
 ---
 
