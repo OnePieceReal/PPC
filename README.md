@@ -17,11 +17,12 @@
 
 <p align="center">
   ▶️ <a href="demo/demo_1.mp4"><strong>Demo 1 <br> </strong></a>
-  ▶️ <a href="demo/demo_2.mp4"><strong>Demo 2 <br>  </strong></a>
+  ▶️ <a href="demo/demo_2.mp4"><strong>Demo 2 <br> </strong></a>
   ▶️ <a href="demo/demo_3.mp4"><strong>Demo 3 <br> </strong></a>
 </p>
-<br> 
----
+
+<hr>
+
 
 ## 😭 Introduction
 Introducing the Autonomous Ping Pong Collector, a robot that uses machine learning and computer vision to locate rogue ping pong balls (preferably orange). No more quests to find lost balls after the game because this autonomous collector maneuvers around obstacles, making ball kid duties a relic of the past. The objective of this project is to show that boring tasks can be automated so that we can focus on more important things such as intentionally throwing matches or fighting with our friends over an iffy serve.
