@@ -16,10 +16,11 @@
 </p>
 
 <p align="center">
-  ▶️ <a href="demo/demo_1.mp4"><strong>Demo 1</strong></a>
+  ▶️ <a href="demo/demo_1.mp4"><strong>Demo 1 <br> </strong></a>
   ▶️ <a href="demo/demo_2.mp4"><strong>Demo 2</strong></a>
   ▶️ <a href="demo/demo_3.mp4"><strong>Demo 3</strong></a>
 </p>
+
 ---
 
 ## 😭 Introduction
