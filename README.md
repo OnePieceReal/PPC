@@ -1,31 +1,25 @@
-# 🤖 Autonomous Ping Pong Collector
-
-An autonomous robot designed to detect, collect, and avoid obstacles while retrieving stray ping pong balls using machine learning, computer vision, and robotics.
+# Autonomous Ping Pong Collector
 
 ---
 
-## 📸 Robot Gallery
-*A closer look at the build and design*
-
-![Bot Overview](bot_images/image_1.jpg)
-
----
-
-## 🎬 Demo
-Watch the robot in action:
-
-![Demo](bot_demo/demo_1_gif)
+## Bot Showcase
+*Insert image 1 from bot_images (located at `bot_images/image_1.jpg`)*  
+![Bot Image](bot_images/image_1.jpg)
 
 ---
 
-## 🧠 Introduction
-Meet the **Autonomous Ping Pong Collector**, a robot built to find and fetch rogue ping pong balls (preferably orange) using computer vision and machine learning.
-
-No more post-match ball hunts—this bot navigates obstacles like a pro, making ball retrievers a thing of the past. The goal of this project is to demonstrate that even simple, repetitive tasks can be automated, so you can focus on what really matters: arguing over serves or gracefully losing the match.
+## Demo
+*Put demo gif (located at `bot_demo/demo_1_gif`)*  
+![Demo GIF](bot_demo/demo_1_gif)
 
 ---
 
-## 🧰 Component List
+## Introduction
+Introducing the Autonomous Ping Pong Collector, a robot that uses machine learning and computer vision to locate rogue ping pong balls (preferably orange). No more quests to find lost balls after the game because this autonomous collector maneuvers around obstacles, making ball kid duties a relic of the past. The objective of this project is to show that boring tasks can be automated so that we can focus on more important things such as intentionally throwing matches or fighting with our friends over an iffy serve.
+
+---
+
+## Material/Component List
 
 | Item | Quantity |
 |------|----------|
@@ -35,56 +29,52 @@ No more post-match ball hunts—this bot navigates obstacles like a pro, making 
 | Arduino Nano | 1 |
 | Arducam IMX519 | 1 |
 | Slamtec RPLIDAR A1M8 | 1 |
-| TT Motor (3–6V, 150–160 mA) | 1 |
-| DC12V Reversible High Torque Gear Motor (62 RPM) | 1 |
-| L298n Motor Driver (5V logic / 36mA) | 2 |
-| 9g Servo (4.8–6V / 100–250 mA) | 1 |
-| PCA9685 (2.3–5.5V / 25mA per servo) | 1 |
-| 3mm Clear Acrylic (12"x12") | 6 |
-| 3mm Clear Acrylic (12"x24") | 2 |
-| 18650 2600 mAh Batteries | 4 |
-| 18650 Battery Charger (4-slot) | 1 |
-| 3.1A QC Micro USB Cable (3 Pack) | 1 |
-| 16-Channel PWM Servo Driver | 1 |
-| SG90 Servo Motor Kit (5 Pcs) | 1 |
+| TT Motor ((3-6v)(150-160 mA)) | 1 |
+| DC12V Electric Motor Reversible High Torque Turbo Worm Gear Box Reduction Electric Motor 5/6/20/40 62RPM | 1 |
+| L298n Driver 5v (logic)/36ma (logic) | 2 |
+| 9g Servo(4.8-6v/100-250mA) | 1 |
+| PCA9685 (2.3-5.5/25mA(per servo)) | 1 |
+| 3mm Clear Cast Acrylic 3mm 12"x12" | 6 |
+| 3mm Clear Cast Acrylic 3mm 12"x24" | 2 |
+| 18650 2600 mAh 3.7 Volt Batteries, 2 Pack | 4 |
+| 18650 Battery Charger, 4 Slots | 1 |
+| 3 Pack 3.1A QC Micro USB Cable | 1 |
+| 16 Channel PWM Servo Driver | 1 |
+| 5 PCs SG90 Servo Motor Kit | 1 |
 | Keeyes L298n and Motor Kit | 1 |
 | M3 x 10mm Phillips Screws (10 Pcs) | 1 |
 | M3 x 20mm Phillips Screws (10 Pcs) | 1 |
 | M3 x 25mm Phillips Screws (10 Pcs) | 1 |
-| M3 Machine Hex Nuts (10 Pcs) | 2 |
+| M3 Machine Hex Nut (10 Pcs) | 2 |
 | M2.5 x 6mm Phillips Screws (10 Pcs) | 1 |
 | M2.5 x 20mm Phillips Screws (10 Pcs) | 1 |
-| M2.5 Machine Hex Nuts | 2 |
-| Pololu 1/2" Ball Caster (Plastic) | 2 |
-| Pololu 3/8" Ball Caster (Metal) | 2 |
+| M2.5 Machine Hex Nut | 2 |
+| Pololu Ball Caster 1/2" Plastic | 2 |
+| Pololu Ball Caster Wheel 3/8" Metal | 2 |
 | SparkFun 22AWG Red Wire | 1 |
 | SparkFun 22AWG Black Wire | 1 |
 | 4x 18650 Battery Holder | 1 |
-| 2 oz Applicator Bottle | 5 |
-| Weld-On 4 (Fast Set) | 1 |
-| Hitachi Brass Standoffs | 7 |
-| 20mm Fuse (3A, 2-Pack) | 1 |
+| 2 Oz Applicator Bottle | 5 |
+| Weldon 4 1/4 Pint Fast Set | 1 |
+| Hitachi Brass Standoff Spaces | 7 |
+| 20mm Fuse (2 Pack) – 3 Amp | 1 |
 | SPST Toggle Switch | 1 |
 | 20mm Fuse Holder | 1 |
 
 ---
 
-## 🔧 Future Work & Improvements
+## Future Works + Improvements
 
-- **Increase LiDAR Clearance**: Fine-tune the obstacle detection threshold (e.g., from 450 mm to 475 mm) or apply a dynamic lateral offset for better collision avoidance. Relocating the LiDAR to a more central position could also improve detection at shallow angles.
+- Increase LiDAR clearance margin: Play with the trigger threshold slightly above 450 mm (e.g., 475 mm) or implement a dynamic lateral offset when an obstacle is detected off-center to prevent shallow‐angle collisions. (Physical relocation to a more central area of the bot for the LiDAR can help too)
 
-- **Refine Scoop Mechanism**: Adjust the sweeper arm’s angle and add a longer, more flexible lip to improve first-contact ball collection. Alternatively, explore a new mechanism such as vacuum-based suction.
+- Refine Scoop mechanism: Adjust the sweeper arm angle, and add a longer more flexible lip to the scoop to better catch the ball on first contact. Or even reconsider a new ball catching mechanism such as a vacuum-based suction collector.
 
-- **Upgrade to Jetson Orin Nano**: The Jetson Nano 4GB limits performance and model complexity (e.g., restricted to MobileNet SSD v2). Upgrading to the Orin Nano would support real-time inference with more powerful models like YOLOv8. Also, the Jetson Nano has been officially discontinued by NVIDIA.
+- Migration from Jetson Nano 4GB to Jetson Orin Nano: The Jetson Nano 4GB has limitations in memory and computational power, restricting us to using the MobileNet SSD v2 model for object detection. While the MobileNet model works, the more sophisticated models like YOLOv8 will provide better accuracy and performance, but they also require more available computing resources. Moving to the Jetson Orin Nano would allow you to implement the more advanced models and provide real-time inference and scale in the future. NVIDIA has also officially discontinued the Jetson Nano platform so there won't be any software updates or long-term support. We recommend switching to the Jetson Orin Nano platform to provide better real-time performance and to allow for future compatibility with emerging technologies.
 
-- **Add IMUs and Wheel Encoders**: The current setup uses LiDAR for reactive navigation only. Integrating IMUs and encoders would enable odometry, SLAM, and path planning—transforming the bot from a reactive to a globally aware autonomous system.
-
----
-
-## ✅ Conclusion
-
-We successfully built a robot capable of detecting and collecting ping pong balls while avoiding obstacles in real-time. Despite challenges such as memory limitations on the Jetson Nano and physical design issues like ball deflection off the sweeper blades, several design iterations helped us overcome these problems. This project offered valuable hands-on experience in robotics, machine learning, and iterative engineering—skills we’ll carry forward into our future endeavors.
+- Integrate IMUs and Wheel Encoders: Currently, your robot is using reactive obstacle avoidance through LiDAR. While this is an effective method for local navigation, it does not provide the robot with any global understanding or planning capability. By equipping your robot with Inertial Measurement Units (IMUs) and wheel encoders, you would be able to obtain odometry data to enable SLAM (Simultaneous Localization and Mapping) and path planning algorithms. This would allow the robot to map its environment and navigate intelligently and efficiently while retrieving ping pong balls.
 
 ---
 
-> _Made with caffeine, ping pong balls, and perseverance._
+## Conclusion
+
+In conclusion, we accomplished our goal of fabricating a robot capable of simultaneously avoiding obstacles while detecting and collecting ping pong balls. However, integrating these features posed several challenges, including memory limitations on the Jetson Nano and design issues such as balls deflecting off the sweeper blades. We went through multiple design iterations before arriving at the current model, which resolved many of the physical issues we initially encountered. Despite these obstacles, the experience gained and lessons learned throughout the project will serve as valuable guidance for our future engineering endeavors.
