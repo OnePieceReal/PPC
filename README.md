@@ -3,13 +3,13 @@
 ---
 
 ## Bot Showcase
-*Insert image 1 from bot_images (located at `bot_images/image_1.jpg`)*  
+
 ![Bot Image](bot_images/image_1.jpg)
 
 ---
 
 ## Demo
-*Put demo gif (located at `bot_demo/demo_1_gif`)*  
+
 ![Demo GIF](bot_demo/demo_1_gif)
 
 ---
