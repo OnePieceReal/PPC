@@ -9,10 +9,10 @@
 ---
 
 ## 🎥 Demo
-
 ![Demo GIF](demo/demo_1_gif.gif)
-<video src="demo/demo_2.mp4" autoplay loop muted playsinline controls width="500"></video>
-
+▶️ [Watch Demo Video 2](demo/demo_1.mp4)
+▶️ [Watch Demo Video 2](demo/demo_2.mp4)
+▶️ [Watch Demo Video 2](demo/demo_3.mp4)
 ---
 
 ## 😭 Introduction
