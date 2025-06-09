@@ -10,7 +10,7 @@
 
 ## 🎥 Demo
 
-![Demo GIF](bot_demo/demo_1_gif)
+![Demo GIF](demo/demo_1_gif)
 
 ---
 
