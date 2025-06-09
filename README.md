@@ -10,9 +10,14 @@
 
 ## 🎥 Demo
 ![Demo GIF](demo/demo_1_gif.gif)
-▶️ [Watch Demo Video 2](demo/demo_1.mp4)
-▶️ [Watch Demo Video 2](demo/demo_2.mp4)
-▶️ [Watch Demo Video 2](demo/demo_3.mp4)
+
+<p align="center">
+  <img src="demo/demo_2.gif" width="600"/>
+</p>
+
+<p align="center">
+  ▶️ <a href="demo/demo_2.mp4"><strong>Watch Full Demo Video</strong></a>
+</p>
 ---
 
 ## 😭 Introduction
