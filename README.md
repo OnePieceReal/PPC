@@ -3,13 +3,13 @@
 ---
 
 ## Bot Showcase
-
+*Insert image 1 from bot_images (located at `bot_images/image_1.jpg`)*  
 ![Bot Image](bot_images/image_1.jpg)
 
 ---
 
 ## Demo
-
+*Put demo gif (located at `bot_demo/demo_1_gif`)*  
 ![Demo GIF](bot_demo/demo_1_gif)
 
 ---
@@ -63,18 +63,18 @@ Introducing the Autonomous Ping Pong Collector, a robot that uses machine learni
 
 ---
 
-## Future Works + Improvements
+## 🚀 Future Works + Improvements
 
-- Increase LiDAR clearance margin: Play with the trigger threshold slightly above 450 mm (e.g., 475 mm) or implement a dynamic lateral offset when an obstacle is detected off-center to prevent shallow‐angle collisions. (Physical relocation to a more central area of the bot for the LiDAR can help too)
+- 🔧 **Increase LiDAR clearance margin**: Play with the trigger threshold slightly above 450 mm (e.g., 475 mm) or implement a dynamic lateral offset when an obstacle is detected off-center to prevent shallow‐angle collisions. (Physical relocation to a more central area of the bot for the LiDAR can help too)
 
-- Refine Scoop mechanism: Adjust the sweeper arm angle, and add a longer more flexible lip to the scoop to better catch the ball on first contact. Or even reconsider a new ball catching mechanism such as a vacuum-based suction collector.
+- 🧹 **Refine Scoop mechanism**: Adjust the sweeper arm angle, and add a longer more flexible lip to the scoop to better catch the ball on first contact. Or even reconsider a new ball catching mechanism such as a vacuum-based suction collector.
 
-- Migration from Jetson Nano 4GB to Jetson Orin Nano: The Jetson Nano 4GB has limitations in memory and computational power, restricting us to using the MobileNet SSD v2 model for object detection. While the MobileNet model works, the more sophisticated models like YOLOv8 will provide better accuracy and performance, but they also require more available computing resources. Moving to the Jetson Orin Nano would allow you to implement the more advanced models and provide real-time inference and scale in the future. NVIDIA has also officially discontinued the Jetson Nano platform so there won't be any software updates or long-term support. We recommend switching to the Jetson Orin Nano platform to provide better real-time performance and to allow for future compatibility with emerging technologies.
+- 🧠 **Migration from Jetson Nano 4GB to Jetson Orin Nano**: The Jetson Nano 4GB has limitations in memory and computational power, restricting us to using the MobileNet SSD v2 model for object detection. While the MobileNet model works, the more sophisticated models like YOLOv8 will provide better accuracy and performance, but they also require more available computing resources. Moving to the Jetson Orin Nano would allow you to implement the more advanced models and provide real-time inference and scale in the future. NVIDIA has also officially discontinued the Jetson Nano platform so there won't be any software updates or long-term support. We recommend switching to the Jetson Orin Nano platform to provide better real-time performance and to allow for future compatibility with emerging technologies.
 
-- Integrate IMUs and Wheel Encoders: Currently, your robot is using reactive obstacle avoidance through LiDAR. While this is an effective method for local navigation, it does not provide the robot with any global understanding or planning capability. By equipping your robot with Inertial Measurement Units (IMUs) and wheel encoders, you would be able to obtain odometry data to enable SLAM (Simultaneous Localization and Mapping) and path planning algorithms. This would allow the robot to map its environment and navigate intelligently and efficiently while retrieving ping pong balls.
+- 🧭 **Integrate IMUs and Wheel Encoders**: Currently, our robot is using a reactive obstacle avoidance via LiDAR. While this is an effective method for local navigation, it does not provide the robot with any global understanding or planning capability. By equipping the robot with Inertial Measurement Units (IMUs) and wheel encoders, you would be able to obtain odometry data to enable SLAM (Simultaneous Localization and Mapping) and path planning algorithms. This would allow the robot to map its environment and navigate intelligently and efficiently while retrieving ping pong balls.
 
 ---
 
-## Conclusion
+## ✅ Conclusion
 
 In conclusion, we accomplished our goal of fabricating a robot capable of simultaneously avoiding obstacles while detecting and collecting ping pong balls. However, integrating these features posed several challenges, including memory limitations on the Jetson Nano and design issues such as balls deflecting off the sweeper blades. We went through multiple design iterations before arriving at the current model, which resolved many of the physical issues we initially encountered. Despite these obstacles, the experience gained and lessons learned throughout the project will serve as valuable guidance for our future engineering endeavors.
