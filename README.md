@@ -11,6 +11,7 @@
 ## 🎥 Demo
 
 ![Demo GIF](demo/demo_1_gif.gif)
+<video src="demo/demo_1.mp4" autoplay loop muted playsinline controls width="500"></video>
 
 ---
 
