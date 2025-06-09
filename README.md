@@ -20,6 +20,10 @@
   ▶️ <a href="demo/demo_2.mp4"><strong>Demo 2 <br> </strong></a>
   ▶️ <a href="demo/demo_3.mp4"><strong>Demo 3 <br> </strong></a>
 </p>
+<video width="800" controls autoplay loop muted>
+  <source src="demo/demo_2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <hr>
 
