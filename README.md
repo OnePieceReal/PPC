@@ -93,8 +93,12 @@ Introducing the Autonomous Ping Pong Collector, a robot that uses machine learni
 
 All in all, we accomplished our goal of fabricating a robot capable of simultaneously avoiding obstacles while detecting and collecting ping pong balls. However, integrating these features posed several challenges, including memory limitations on the Jetson Nano and design issues such as balls deflecting off the sweeper blades. We went through multiple design iterations before arriving at the current model, which resolved many of the physical issues we initially encountered. Despite these obstacles, the experience gained and lessons learned throughout the project will serve as valuable guidance for our future engineering endeavors.
 
-## Acknowledgement 
-Eugenio D.
-Jose J.
-Daniel A.
-Jacob B.
+<h2 align="center">Acknowledgement</h2>
+
+<p align="center">
+  Special thanks to:<br>
+  <b>Eugenio D.</b><br>
+  <b>Jose J.</b><br>
+  <b>Daniel A.</b><br>
+  <b>Jacob B.</b>
+</p>
